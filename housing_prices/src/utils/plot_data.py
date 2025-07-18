@@ -84,3 +84,39 @@ def plot_geospatial_with_map(df: pd.DataFrame, map_style="light"):
     plt.title("House Prices with Map Background", fontsize=14)
     plt.tight_layout()
     plt.show()
+
+
+    # plot_hist(housing)
+    # plot_correlation(housing)
+    # # plot_geospatial(housing)
+    # plot_geospatial_with_map(housing)
+    # import seaborn as sns
+    # import matplotlib.pyplot as plt
+    # sns.countplot(x = 'income_cat', data=housing)
+    # plt.xlabel("Category")
+    # plt.ylabel("Number of districts")
+    # plt.show()
+
+    
+    # plot_hist(data_train)
+    # plot_correlation(data_train)
+    # plot_geospatial(housing)
+    # plot_geospatial_with_map(data_train)
+    # import seaborn as sns
+    # import matplotlib.pyplot as plt
+    # sns.countplot(x = 'income_cat', data=data_test,)
+    # plt.grid(True)
+    # plt.xlabel("Category")
+    # plt.ylabel("Number of districts")
+    # plt.show()
+    # print(data_test["income_cat"].value_counts() / len(data_test))
+    # housing = housing.drop(columns=["income_cat"])
+    
+    # housing["rooms_per_house"] = housing["total_rooms"]/housing["households"] 
+    # housing["bedrooms_ratio"] = housing["total_bedrooms"]/housing["total_rooms"]
+    # housing['people_per_house'] = housing['population']/housing['households']
+    # corr_matrix = housing.corr(numeric_only=True)
+    # print(sorted(corr_matrix['median_house_value'], reverse=True))
+    # housing_labels = housing['median_house_value']
+    # housing = housing.drop(columns=['median_house_value'])
+    # print(housing.keys())
