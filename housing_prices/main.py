@@ -88,7 +88,6 @@ def main():
     df.to_csv(Path("data/processed/benchmark_results.csv"), index_label="Model")
 
 
-
 if __name__ == "__main__":
     main()
 
